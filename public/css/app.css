@@ -1,0 +1,161 @@
+.nav-link{
+
+
+
+    color:white;
+
+    font-size:20px;
+
+}
+
+.navbar-nav{
+
+    font-family:"Marcellus";
+
+    display:flex;
+    justify-content: space-between;
+    margin-right: 20px;;
+    width: 80%;
+}
+
+.navbar{
+   background-color: transparent !important;
+position: absolute;
+ z-index: 2;
+ width:100%;
+}
+
+
+.navnav{
+
+    background-size: cover;
+
+    background-blend-mode:darken !important;
+   background-image: url("../img/coffee.jpg");
+   height:900px;
+   background-repeat: no-repeat;
+   animation: zoom-in-zoom-out 4s ease infinite;
+
+}
+
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.01, 1.01);
+    }
+    100% {
+      transform: scale(1.02, 1.02);
+    }
+  }
+
+  .navnav2{
+ line-height: 40px;
+ height:800px;
+     display:flex;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+   flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+  text-align: center;
+
+}
+
+
+.navnav2 div p{
+
+  color:white;
+  width:80%;
+}
+
+
+.navnav2 h1{
+
+    font-size:68px;
+
+    color:white;
+
+    font-family: "Marcellus"
+}
+
+
+.related{
+
+
+    border-radius: 0px !important;
+
+    color:white;
+    border-color: white !important;
+
+    padding:10px 20px 10px 20px;
+
+}
+
+
+h1{
+
+    font-family:"Marcellus"
+}
+
+
+p{
+
+ width:80%;
+ opacity: 60%;
+ margin: auto;
+}
+
+
+.section2{
+
+    margin-top: 200px;
+
+     height:fit-content;
+
+    background-image: url("../img/landing-bakcground-img-1.jpg");
+}
+
+
+.navnav3{
+
+    background-image: url("../img/img.jpg");
+
+    height:500px;
+
+    background-position: center;
+    display:flex;
+      justify-content: center;
+
+      align-items: center;
+
+ background-size: cover;
+     background-repeat: no-repeat;
+
+}
+
+
+.section3{
+
+     background-image:url("../img/h1-bacground-img-1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+
+footer{
+    background-color: rgb(32, 32, 32);
+
+    font-family: "Marcellus";
+    color:white;
+    padding:60px;
+}
+
+
+.footer{
+    justify-content: space-between;
+}
